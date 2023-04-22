@@ -16,3 +16,43 @@
     color: #ffffff !important;
     border-color: #52bcff !important;
 }
+.logo-container {
+    position: relative;
+  }
+  
+  .info-block {
+    position: absolute;
+    top: 100%;
+    left: 65%;
+    display: none;
+    background-color: rgb(167, 201, 229);
+    padding: 10px;
+    border: 1px solid rgb(167, 201, 229);
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 175px;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .logo:hover + .info-block {
+    display: block;
+  }
+  
+  .logo {
+    float: right;
+    margin-right: -10px;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .text {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+    
+  
